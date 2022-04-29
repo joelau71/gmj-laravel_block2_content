@@ -1,0 +1,26 @@
+{
+    "name": "gmj/laravel_block2_content",
+    "description": "Laravel Block for backend and frontend - need tailwindcss support, Livewire",
+    "type": "library",
+    "license": "MIT",
+     "authors": [
+        {
+            "name": "Joe Lau",
+            "email": "joe.laucw71@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GMJ\\LaravelBlock2Content\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GMJ\\LaravelBlock2Content\\LaravelBlock2ContentServiceProvider"
+            ]
+        }
+    }
+}
